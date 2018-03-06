@@ -1,11 +1,11 @@
 import { Middleware, NestMiddleware, ExpressMiddleware } from '@nestjs/common';
+import * as serveStatic from 'serve-static';
+import { Environment } from '../../Env';
 
 @Middleware()
 export class ServeStaticMiddleware implements NestMiddleware {
     resolve(...args: any[]): ExpressMiddleware {
-        return (req, res, next) => {
-            console.log('Request...');
-            next();
-        };
+        console.log(`Public path :`, Environment.PublicPath);
+        return serveStatic(Environment.PublicPath);
     }
 }

@@ -1,10 +1,15 @@
-import { Get, Controller, Res, Req } from '@nestjs/common';
+import { Get, Controller } from '@nestjs/common';
 
 @Controller()
 export class AppController {
     @Get()
-    root(): string {
-        console.log(`Hello app controller!`);
+    root(): boolean {
+        console.log(`Call root route '/'`);
+        return true;
+    }
+
+    @Get('index.htm')
+    bad(): string {
         return 'Hello';
     }
 }
