@@ -1,0 +1,19 @@
+[32m[Nest] 7100   - [39m2018-3-7 15:58:36   [33m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:36   [33m[InstanceLoader] [39m[32mApplicationModule dependencies initialized[39m[33m +11ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[33m +1042ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[33m +1ms[39m
+Public path : D:\testProjects\Store\electric\public
+Public path : D:\testProjects\Store\electric\public
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[RoutesResolver] [39m[32mAppController {/}:[39m[33m +48ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[33m +2ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[RouterExplorer] [39m[32mMapped {/index.htm, GET} route[39m[33m +0ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[RoutesResolver] [39m[32mUsersController {/users}:[39m[33m +0ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[RouterExplorer] [39m[32mMapped {/create, POST} route[39m[33m +1ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[RouterExplorer] [39m[32mMapped {/create, GET} route[39m[33m +0ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[RouterExplorer] [39m[32mMapped {/deleteAll, DELETE} route[39m[33m +0ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[RouterExplorer] [39m[32mMapped {/all, GET} route[39m[33m +1ms[39m
+[32m[Nest] 7100   - [39m2018-3-7 15:58:37   [33m[NestApplication] [39m[32mNest application successfully started[39m[33m +0ms[39m
+Call delete all users!
+No user exists to delete!
+Call delete all users!
+No user exists to delete!

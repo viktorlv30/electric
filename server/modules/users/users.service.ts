@@ -20,6 +20,11 @@ export class UsersService {
      * @return true - if success deleted or false if error occurs
      */
     async deleteAll(): Promise<boolean> {
+        let hasUser = await this.userModel.findOne();
+        if (hasUser === null) {
+            // console.warn(`No user exists!`);
+            return false;
+        }
         let operation = new Promise<boolean>((resolve, reject) => {
             this.userModel.collection.deleteMany({}, (err) => {
                 if (err) {
